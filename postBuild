@@ -1,0 +1,7 @@
+#!/bin/bash
+
+wget -P /home/jovyan/data/ https://outpw.s3.us-east-2.amazonaws.com/rasteriodata/Flatirons_DEM_1m.tif
+wget -P /home/jovyan/data/ https://outpw.s3.us-east-2.amazonaws.com/rasteriodata/LC08_Steamboat_B4.tif
+wget -P /home/jovyan/data/ https://outpw.s3.us-east-2.amazonaws.com/rasteriodata/LC08_Steamboat_B5.tif
+wget -P /home/jovyan/data/ https://outpw.s3.us-east-2.amazonaws.com/rasteriodata/NAIP_Campus.tif
+wget -P /home/jovyan/data/ https://outpw.s3.us-east-2.amazonaws.com/rasteriodata/NLCD_Steamboat.tif
